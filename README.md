@@ -1,1 +1,1 @@
-droid_json_api_app
+A simple android app to manipulate a remote user database through web api.
