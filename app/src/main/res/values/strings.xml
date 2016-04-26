@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">JSON</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email ID</string>
+    <string name="hint_field">Field</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="field">Field</string>
+    <string name="email_id">Email ID</string>
+    <string name="hint_id">ID</string>
+    <string name="setting_get">List All</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_search">Search</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_submit">Submit</string>
+</resources>
