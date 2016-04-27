@@ -2,53 +2,67 @@
 <items version="2" >
 
     <item
-        jar="D:\Work\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_9613ba820c81874f8eaaf8d639d8a93c00f99363.jar" />
-    </item>
-    <item
-        jar="C:\Users\MScor\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\gson-2.4_9a2c04c727a328feae71b8989603c3d9ceea834d.jar" />
-    </item>
-    <item
-        jar="D:\Work\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_3762d8bcda268cfa53ee31e69897e852a01dc71d.jar" />
-    </item>
-    <item
-        jar="D:\Work\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_4d8d8b1fff1e9a27c2b1b887ce46180ac4cdcccf.jar" />
-    </item>
-    <item
-        jar="D:\SDK\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
-        jumboMode="false"
+        jar="C:\Users\MaSK\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
         revision="23.0.3"
         sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_9e78d40d157f34b8dbf346345a1d6a8544ee87ae.jar" />
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_4920f76e72867ae960978adadbb555da0bf4082e.jar" />
     </item>
     <item
-        jar="D:\Work\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\MaSK\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_8229bfff8731015757da1c283bb45b74d40a26b2.jar" />
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\gson-2.4_737af31ec2108d58611c7fa1a965f9cdf181448b.jar" />
     </item>
     <item
-        jar="D:\Work\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
         revision="23.0.3"
         sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
-        <dex dex="D:\Work\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_ab94aa5596adce07446217711f76f960fb0804f0.jar" />
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_a652c715a30f103fe79acdb7f202a92a9f7ab4e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_dc21d8ef5087d1cf5771e94f14a5a2e6ef173ea4.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_f6fa54803063b6cb17dc28d2a276914758f1ea7f.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0b163d8d17e0086c48e07f49bb62e612bcd3d13f">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\instant-run_f0e7ad213958147b019f593b26780f0c7892006a.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_6dea0ea9b73a7bf506bb86818b5636c8b5d430b0.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e684abb3f4ab2a14c2303b72965aadfb829c65e1">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_672f252d5d080ca0b84facc764e4bc05f8623040.jar" />
+    </item>
+    <item
+        jar="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="C:\Users\MaSK\Downloads\Android\JSON\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_e78bbd1486799137700cb8a6e92b5f14b40efc43.jar" />
     </item>
 
 </items>

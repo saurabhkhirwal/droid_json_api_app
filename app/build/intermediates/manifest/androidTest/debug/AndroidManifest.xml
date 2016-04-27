@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.modoxlab.dedsec.json.test">
+    package="com.modoxlab.saurabh.json.test">
 
     <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.modoxlab.dedsec.json"
+                     android:targetPackage="com.modoxlab.saurabh.json"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.modoxlab.dedsec.json"/>
+                     android:label="Tests for com.modoxlab.saurabh.json"/>
 </manifest>

@@ -53,28 +53,28 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(com.modoxlab.dedsec.json.R.layout.activity_main);
-        etName = (EditText) findViewById(com.modoxlab.dedsec.json.R.id.etName);
-        etEmail = (EditText) findViewById(com.modoxlab.dedsec.json.R.id.etEmail);
-        etField = (EditText) findViewById(com.modoxlab.dedsec.json.R.id.etField);
-        lvOutput = (ListView) findViewById(com.modoxlab.dedsec.json.R.id.lvOutput);
-        pbLoad = (ProgressBar) findViewById(com.modoxlab.dedsec.json.R.id.pbLoad);
-        etID = (EditText) findViewById(com.modoxlab.dedsec.json.R.id.etID);
-        rbAdd = (RadioButton) findViewById(com.modoxlab.dedsec.json.R.id.rbAdd);
-        rbSearch = (RadioButton) findViewById(com.modoxlab.dedsec.json.R.id.rbSearch);
-        rbRemove = (RadioButton) findViewById(com.modoxlab.dedsec.json.R.id.rbRemove);
-        btnSubmit = (Button) findViewById(com.modoxlab.dedsec.json.R.id.btnSubmit);
+        setContentView(com.modoxlab.saurabh.json.R.layout.activity_main);
+        etName = (EditText) findViewById(com.modoxlab.saurabh.json.R.id.etName);
+        etEmail = (EditText) findViewById(com.modoxlab.saurabh.json.R.id.etEmail);
+        etField = (EditText) findViewById(com.modoxlab.saurabh.json.R.id.etField);
+        lvOutput = (ListView) findViewById(com.modoxlab.saurabh.json.R.id.lvOutput);
+        pbLoad = (ProgressBar) findViewById(com.modoxlab.saurabh.json.R.id.pbLoad);
+        etID = (EditText) findViewById(com.modoxlab.saurabh.json.R.id.etID);
+        rbAdd = (RadioButton) findViewById(com.modoxlab.saurabh.json.R.id.rbAdd);
+        rbSearch = (RadioButton) findViewById(com.modoxlab.saurabh.json.R.id.rbSearch);
+        rbRemove = (RadioButton) findViewById(com.modoxlab.saurabh.json.R.id.rbRemove);
+        btnSubmit = (Button) findViewById(com.modoxlab.saurabh.json.R.id.btnSubmit);
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(com.modoxlab.dedsec.json.R.menu.menu_main, menu);
+        getMenuInflater().inflate(com.modoxlab.saurabh.json.R.menu.menu_main, menu);
         return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == com.modoxlab.dedsec.json.R.id.asList) {
+        if (item.getItemId() == com.modoxlab.saurabh.json.R.id.asList) {
             new SyncRefresh().execute("http://madebymask.com/api/index.php");
         }
         return super.onOptionsItemSelected(item);
@@ -176,7 +176,7 @@ public class MainActivity extends AppCompatActivity {
             if (jsonModels == null) {
                 Toast.makeText(getApplicationContext(), "Please Check Your Internet Connection!", Toast.LENGTH_SHORT).show();
             } else {
-                Adapter adapter = new Adapter(getApplicationContext(), com.modoxlab.dedsec.json.R.layout.layout_holder, jsonModels);
+                Adapter adapter = new Adapter(getApplicationContext(), com.modoxlab.saurabh.json.R.layout.layout_holder, jsonModels);
                 lvOutput.setAdapter(adapter);
             }
         }
@@ -309,7 +309,7 @@ public class MainActivity extends AppCompatActivity {
                 etEmail.setText("");
                 etField.setText("");
                 etName.setText("");
-                Adapter adapter = new Adapter(getApplicationContext(), com.modoxlab.dedsec.json.R.layout.layout_holder, jsonModels);
+                Adapter adapter = new Adapter(getApplicationContext(), com.modoxlab.saurabh.json.R.layout.layout_holder, jsonModels);
                 lvOutput.setAdapter(adapter);
             }
         }
@@ -396,10 +396,10 @@ public class MainActivity extends AppCompatActivity {
             if (convertView == null) {
                 holder = new Holder();
                 convertView = layoutInflater.inflate(resource, null);
-                holder.tvID = (TextView) convertView.findViewById(com.modoxlab.dedsec.json.R.id.tvID);
-                holder.tvName = (TextView) convertView.findViewById(com.modoxlab.dedsec.json.R.id.tvName);
-                holder.tvEmail = (TextView) convertView.findViewById(com.modoxlab.dedsec.json.R.id.tvEmail);
-                holder.tvField = (TextView) convertView.findViewById(com.modoxlab.dedsec.json.R.id.tvField);
+                holder.tvID = (TextView) convertView.findViewById(com.modoxlab.saurabh.json.R.id.tvID);
+                holder.tvName = (TextView) convertView.findViewById(com.modoxlab.saurabh.json.R.id.tvName);
+                holder.tvEmail = (TextView) convertView.findViewById(com.modoxlab.saurabh.json.R.id.tvEmail);
+                holder.tvField = (TextView) convertView.findViewById(com.modoxlab.saurabh.json.R.id.tvField);
                 convertView.setTag(holder);
             } else {
                 holder = (Holder) convertView.getTag();

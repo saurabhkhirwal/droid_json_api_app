@@ -1,8 +1,5 @@
 package com.modoxlab.saurabh.json;
 
-/**
- * Created by MScor on 16-04-2016.
- */
 public class JSONModel {
     private String name, id, email, field, status, message;
 
